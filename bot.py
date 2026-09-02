@@ -47,6 +47,7 @@ ytdl_format_options = {
     'force-ipv4': True,
     'cachedir': False,
     'cookiefile': 'cookies.txt',
+    'extractor_args': {'youtube': {'player_client': ['web_embedded']}},
 }
 
 ffmpeg_options = {
