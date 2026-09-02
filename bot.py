@@ -47,7 +47,6 @@ ytdl_format_options = {
     'force-ipv4': True,
     'cachedir': False,
     'cookiefile': 'cookies.txt',
-    'extractor_args': {'youtube': {'player_client': ['android_vr']}},
 }
 
 ffmpeg_options = {
