@@ -46,7 +46,7 @@ ytdl_format_options = {
     'source_address': '0.0.0.0',
     'force-ipv4': True,
     'cachedir': False,
-    'extractor_args': {'youtube': {'player_client': ['tv']}},
+    'extractor_args': {'youtube': {'player_client': ['android_vr']}},
 }
 
 ffmpeg_options = {
