@@ -33,7 +33,7 @@ bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 
 # === OPSI YT-DLP ===
 ytdl_format_options = {
-    'format': 'bestaudio/best',
+    'format': 'best',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
     'restrictfilenames': True,
     'noplaylist': True,
@@ -47,7 +47,6 @@ ytdl_format_options = {
     'force-ipv4': True,
     'cachedir': False,
     'cookiefile': 'cookies.txt',
-    'extractor_args': {'youtube': {'player_client': ['web_embedded']}},
 }
 
 ffmpeg_options = {
